@@ -35,3 +35,73 @@
 2025-02-14 15:47:50,349 Cleaning registries for queue: home-grazielle-neves-frappe-bench:short
 2025-02-14 15:47:50,353 Cleaning registries for queue: home-grazielle-neves-frappe-bench:default
 2025-02-14 15:47:50,355 Cleaning registries for queue: home-grazielle-neves-frappe-bench:long
+2025-02-14 16:14:50,586 Cleaning registries for queue: home-grazielle-neves-frappe-bench:short
+2025-02-14 16:14:50,589 Cleaning registries for queue: home-grazielle-neves-frappe-bench:default
+2025-02-14 16:14:50,590 Cleaning registries for queue: home-grazielle-neves-frappe-bench:long
+2025-02-14 16:20:45,571 Worker 93625cca17c6421b800bab78017e89cd [PID 24608]: warm shut down requested
+2025-02-14 16:20:45,579 Unsubscribing from channel rq:pubsub:93625cca17c6421b800bab78017e89cd
+2025-02-14 16:37:05,608 Worker rq:worker:df9b962f65c7490b8f613030d98f6966 started with PID 38574, version 1.15.1
+2025-02-14 16:37:05,609 Subscribing to channel rq:pubsub:df9b962f65c7490b8f613030d98f6966
+2025-02-14 16:37:05,624 *** Listening on home-grazielle-neves-frappe-bench:short, home-grazielle-neves-frappe-bench:default, home-grazielle-neves-frappe-bench:long...
+2025-02-14 16:37:05,625 Cleaning registries for queue: home-grazielle-neves-frappe-bench:short
+2025-02-14 16:37:05,631 Cleaning registries for queue: home-grazielle-neves-frappe-bench:default
+2025-02-14 16:37:05,634 Cleaning registries for queue: home-grazielle-neves-frappe-bench:long
+2025-02-14 16:49:45,962 home-grazielle-neves-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': 'jqbcre7n25'}, method='frappe.model.delete_doc.delete_dynamic_links', site='site.local', user='Administrator') (site.local::0668db93-66f0-40af-87f3-7c5955745619)
+2025-02-14 16:49:46,131 home-grazielle-neves-frappe-bench:default: Job OK (site.local::0668db93-66f0-40af-87f3-7c5955745619)
+2025-02-14 16:49:46,131 Result is kept for 600 seconds
+2025-02-14 16:50:02,773 home-grazielle-neves-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': '11c5q5tv1f'}, method='frappe.model.delete_doc.delete_dynamic_links', site='site.local', user='Administrator') (site.local::e5f39b76-d718-4545-bd28-15e9b8a61ded)
+2025-02-14 16:50:02,992 home-grazielle-neves-frappe-bench:default: Job OK (site.local::e5f39b76-d718-4545-bd28-15e9b8a61ded)
+2025-02-14 16:50:02,993 Result is kept for 600 seconds
+2025-02-14 16:50:08,515 home-grazielle-neves-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': 'f4lk8vl9a1'}, method='frappe.model.delete_doc.delete_dynamic_links', site='site.local', user='Administrator') (site.local::e2ab6baf-9991-4bd6-be2f-bad2569b0498)
+2025-02-14 16:50:08,701 home-grazielle-neves-frappe-bench:default: Job OK (site.local::e2ab6baf-9991-4bd6-be2f-bad2569b0498)
+2025-02-14 16:50:08,701 Result is kept for 600 seconds
+2025-02-14 16:50:17,994 home-grazielle-neves-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': 'i3cu6h36j2'}, method='frappe.model.delete_doc.delete_dynamic_links', site='site.local', user='Administrator') (site.local::55af638e-5c9e-4c0f-8934-44e14e4a68a6)
+2025-02-14 16:50:18,234 home-grazielle-neves-frappe-bench:default: Job OK (site.local::55af638e-5c9e-4c0f-8934-44e14e4a68a6)
+2025-02-14 16:50:18,234 Result is kept for 600 seconds
+2025-02-14 16:58:04,320 home-grazielle-neves-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': 'f2gp14h10c'}, method='frappe.model.delete_doc.delete_dynamic_links', site='site.local', user='Administrator') (site.local::d5cca0cc-c359-4014-9b07-c1705e3881cd)
+2025-02-14 16:58:04,509 home-grazielle-neves-frappe-bench:default: Job OK (site.local::d5cca0cc-c359-4014-9b07-c1705e3881cd)
+2025-02-14 16:58:04,509 Result is kept for 600 seconds
+2025-02-14 17:00:56,759 home-grazielle-neves-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': 'jm0u3i381s'}, method='frappe.model.delete_doc.delete_dynamic_links', site='site.local', user='Administrator') (site.local::0245e0be-391d-44fa-9629-d09d95f0c099)
+2025-02-14 17:00:56,957 home-grazielle-neves-frappe-bench:default: Job OK (site.local::0245e0be-391d-44fa-9629-d09d95f0c099)
+2025-02-14 17:00:56,958 Result is kept for 600 seconds
+2025-02-14 17:00:56,962 Cleaning registries for queue: home-grazielle-neves-frappe-bench:short
+2025-02-14 17:00:56,964 Cleaning registries for queue: home-grazielle-neves-frappe-bench:default
+2025-02-14 17:00:56,966 Cleaning registries for queue: home-grazielle-neves-frappe-bench:long
+2025-02-14 17:03:31,094 Worker df9b962f65c7490b8f613030d98f6966 [PID 38574]: warm shut down requested
+2025-02-14 17:03:31,103 Unsubscribing from channel rq:pubsub:df9b962f65c7490b8f613030d98f6966
+2025-02-14 17:03:36,334 Worker rq:worker:b4da70915b3544e5a9450d495b1501fb started with PID 39475, version 1.15.1
+2025-02-14 17:03:36,335 Subscribing to channel rq:pubsub:b4da70915b3544e5a9450d495b1501fb
+2025-02-14 17:03:36,342 *** Listening on home-grazielle-neves-frappe-bench:short, home-grazielle-neves-frappe-bench:default, home-grazielle-neves-frappe-bench:long...
+2025-02-14 17:05:45,165 home-grazielle-neves-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': 'smk7137dci'}, method='frappe.model.delete_doc.delete_dynamic_links', site='site.local', user='Administrator') (site.local::6260f673-c5ef-4d83-b5cb-e64262c010c3)
+2025-02-14 17:05:45,413 home-grazielle-neves-frappe-bench:default: Job OK (site.local::6260f673-c5ef-4d83-b5cb-e64262c010c3)
+2025-02-14 17:05:45,413 Result is kept for 600 seconds
+2025-02-14 17:07:51,794 Worker b4da70915b3544e5a9450d495b1501fb [PID 39475]: warm shut down requested
+2025-02-14 17:07:51,799 Unsubscribing from channel rq:pubsub:b4da70915b3544e5a9450d495b1501fb
+2025-02-14 17:07:54,489 Worker rq:worker:512e5c7a02a847f195b88cf8733d1c1f started with PID 39643, version 1.15.1
+2025-02-14 17:07:54,489 Subscribing to channel rq:pubsub:512e5c7a02a847f195b88cf8733d1c1f
+2025-02-14 17:07:54,490 *** Listening on home-grazielle-neves-frappe-bench:short, home-grazielle-neves-frappe-bench:default, home-grazielle-neves-frappe-bench:long...
+2025-02-14 17:09:06,508 home-grazielle-neves-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': '4g0ni676cs'}, method='frappe.model.delete_doc.delete_dynamic_links', site='site.local', user='Administrator') (site.local::b6316ccb-db28-4344-be49-4e4dd6f68132)
+2025-02-14 17:09:06,672 home-grazielle-neves-frappe-bench:default: Job OK (site.local::b6316ccb-db28-4344-be49-4e4dd6f68132)
+2025-02-14 17:09:06,673 Result is kept for 600 seconds
+2025-02-14 17:14:21,260 home-grazielle-neves-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': 'qvsrb3prbn'}, method='frappe.model.delete_doc.delete_dynamic_links', site='site.local', user='Administrator') (site.local::6f7a1451-98ca-44f4-b6f7-5c7663904005)
+2025-02-14 17:14:21,474 home-grazielle-neves-frappe-bench:default: Job OK (site.local::6f7a1451-98ca-44f4-b6f7-5c7663904005)
+2025-02-14 17:14:21,475 Result is kept for 600 seconds
+2025-02-14 17:14:28,766 Worker 512e5c7a02a847f195b88cf8733d1c1f [PID 39643]: warm shut down requested
+2025-02-14 17:14:28,771 Unsubscribing from channel rq:pubsub:512e5c7a02a847f195b88cf8733d1c1f
+2025-02-14 17:14:33,033 Worker rq:worker:e36a16fa507646edaa4a4a71f5a86b12 started with PID 39831, version 1.15.1
+2025-02-14 17:14:33,033 Subscribing to channel rq:pubsub:e36a16fa507646edaa4a4a71f5a86b12
+2025-02-14 17:14:33,035 *** Listening on home-grazielle-neves-frappe-bench:short, home-grazielle-neves-frappe-bench:default, home-grazielle-neves-frappe-bench:long...
+2025-02-14 17:20:44,787 Worker e36a16fa507646edaa4a4a71f5a86b12 [PID 39831]: warm shut down requested
+2025-02-14 17:20:44,788 Unsubscribing from channel rq:pubsub:e36a16fa507646edaa4a4a71f5a86b12
+2025-02-14 17:21:12,153 Worker rq:worker:da376347c6fb4f5abe6b2917e6ecef76 started with PID 40064, version 1.15.1
+2025-02-14 17:21:12,154 Subscribing to channel rq:pubsub:da376347c6fb4f5abe6b2917e6ecef76
+2025-02-14 17:21:12,154 *** Listening on home-grazielle-neves-frappe-bench:short, home-grazielle-neves-frappe-bench:default, home-grazielle-neves-frappe-bench:long...
+2025-02-14 17:21:12,155 Cleaning registries for queue: home-grazielle-neves-frappe-bench:short
+2025-02-14 17:21:12,156 Cleaning registries for queue: home-grazielle-neves-frappe-bench:default
+2025-02-14 17:21:12,157 Cleaning registries for queue: home-grazielle-neves-frappe-bench:long
+2025-02-14 17:22:30,126 home-grazielle-neves-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': 't3e6ubjooh'}, method='frappe.model.delete_doc.delete_dynamic_links', site='site.local', user='Administrator') (site.local::042009d7-fed8-4a50-a986-6e07cf2689b1)
+2025-02-14 17:22:30,305 home-grazielle-neves-frappe-bench:default: Job OK (site.local::042009d7-fed8-4a50-a986-6e07cf2689b1)
+2025-02-14 17:22:30,306 Result is kept for 600 seconds
+2025-02-14 17:24:36,609 home-grazielle-neves-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.model.delete_doc.delete_dynamic_links', kwargs={'doctype': 'Appointment', 'name': 'oiesp3s4l4'}, method='frappe.model.delete_doc.delete_dynamic_links', site='site.local', user='Administrator') (site.local::dd9ace20-49bf-48ac-b414-ee45f55a2715)
+2025-02-14 17:24:36,802 home-grazielle-neves-frappe-bench:default: Job OK (site.local::dd9ace20-49bf-48ac-b414-ee45f55a2715)
+2025-02-14 17:24:36,802 Result is kept for 600 seconds
