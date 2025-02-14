@@ -1,0 +1,37 @@
+2025-02-14 12:26:49,288 Worker rq:worker:b3f01f1480a84fb4b60a8d8e7bdeae31 started with PID 21958, version 1.15.1
+2025-02-14 12:26:49,288 Subscribing to channel rq:pubsub:b3f01f1480a84fb4b60a8d8e7bdeae31
+2025-02-14 12:26:49,289 *** Listening on home-grazielle-neves-frappe-bench:short, home-grazielle-neves-frappe-bench:default, home-grazielle-neves-frappe-bench:long...
+2025-02-14 12:26:49,297 Cleaning registries for queue: home-grazielle-neves-frappe-bench:short
+2025-02-14 12:26:49,304 Cleaning registries for queue: home-grazielle-neves-frappe-bench:default
+2025-02-14 12:26:49,310 Cleaning registries for queue: home-grazielle-neves-frappe-bench:long
+2025-02-14 12:28:26,031 Worker b3f01f1480a84fb4b60a8d8e7bdeae31 [PID 21958]: warm shut down requested
+2025-02-14 12:28:26,033 Unsubscribing from channel rq:pubsub:b3f01f1480a84fb4b60a8d8e7bdeae31
+2025-02-14 12:39:40,200 Worker rq:worker:fbbc7a2a7b3b46c6b3b70b915b4afdd7 started with PID 22857, version 1.15.1
+2025-02-14 12:39:40,200 Subscribing to channel rq:pubsub:fbbc7a2a7b3b46c6b3b70b915b4afdd7
+2025-02-14 12:39:40,201 *** Listening on home-grazielle-neves-frappe-bench:short, home-grazielle-neves-frappe-bench:default, home-grazielle-neves-frappe-bench:long...
+2025-02-14 12:44:54,073 home-grazielle-neves-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: grazielleneves@usp.br>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='site.local', user='Administrator') (site.local::74026c07-4895-4fa5-bab8-fa9528bec6f9)
+2025-02-14 12:44:56,270 home-grazielle-neves-frappe-bench:default: Job OK (site.local::74026c07-4895-4fa5-bab8-fa9528bec6f9)
+2025-02-14 12:44:56,270 Result is kept for 600 seconds
+2025-02-14 12:44:56,285 home-grazielle-neves-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'grazielleneves@usp.br'}, method='frappe.core.doctype.user.user.update_gravatar', site='site.local', user='Administrator') (site.local::e2348d2d-d9e5-49a6-9995-1d64ff51913c)
+2025-02-14 12:44:56,966 home-grazielle-neves-frappe-bench:default: Job OK (site.local::e2348d2d-d9e5-49a6-9995-1d64ff51913c)
+2025-02-14 12:44:56,966 Result is kept for 600 seconds
+2025-02-14 14:06:04,026 Cleaning registries for queue: home-grazielle-neves-frappe-bench:short
+2025-02-14 14:06:04,038 Cleaning registries for queue: home-grazielle-neves-frappe-bench:default
+2025-02-14 14:06:04,046 Cleaning registries for queue: home-grazielle-neves-frappe-bench:long
+2025-02-14 14:13:16,873 Worker fbbc7a2a7b3b46c6b3b70b915b4afdd7 [PID 22857]: warm shut down requested
+2025-02-14 14:13:16,875 Unsubscribing from channel rq:pubsub:fbbc7a2a7b3b46c6b3b70b915b4afdd7
+2025-02-14 14:13:19,577 Worker rq:worker:93625cca17c6421b800bab78017e89cd started with PID 24608, version 1.15.1
+2025-02-14 14:13:19,577 Subscribing to channel rq:pubsub:93625cca17c6421b800bab78017e89cd
+2025-02-14 14:13:19,579 *** Listening on home-grazielle-neves-frappe-bench:short, home-grazielle-neves-frappe-bench:default, home-grazielle-neves-frappe-bench:long...
+2025-02-14 14:26:49,604 Cleaning registries for queue: home-grazielle-neves-frappe-bench:short
+2025-02-14 14:26:49,606 Cleaning registries for queue: home-grazielle-neves-frappe-bench:default
+2025-02-14 14:26:49,608 Cleaning registries for queue: home-grazielle-neves-frappe-bench:long
+2025-02-14 14:53:49,803 Cleaning registries for queue: home-grazielle-neves-frappe-bench:short
+2025-02-14 14:53:49,806 Cleaning registries for queue: home-grazielle-neves-frappe-bench:default
+2025-02-14 14:53:49,808 Cleaning registries for queue: home-grazielle-neves-frappe-bench:long
+2025-02-14 15:20:50,050 Cleaning registries for queue: home-grazielle-neves-frappe-bench:short
+2025-02-14 15:20:50,052 Cleaning registries for queue: home-grazielle-neves-frappe-bench:default
+2025-02-14 15:20:50,055 Cleaning registries for queue: home-grazielle-neves-frappe-bench:long
+2025-02-14 15:47:50,349 Cleaning registries for queue: home-grazielle-neves-frappe-bench:short
+2025-02-14 15:47:50,353 Cleaning registries for queue: home-grazielle-neves-frappe-bench:default
+2025-02-14 15:47:50,355 Cleaning registries for queue: home-grazielle-neves-frappe-bench:long

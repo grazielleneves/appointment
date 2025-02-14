@@ -1,0 +1,42 @@
+2025-02-14 12:12:29,117 DEBUG cd frappe-bench && python3 -m venv env
+2025-02-14 12:12:33,178 DEBUG cd frappe-bench && /home/grazielle-neves/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-02-14 12:12:35,337 DEBUG cd frappe-bench && /home/grazielle-neves/frappe-bench/env/bin/python -m pip install --quiet wheel
+2025-02-14 12:12:36,969 LOG Getting frappe
+2025-02-14 12:12:36,969 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-15 --depth 1 --origin upstream
+2025-02-14 12:12:43,209 LOG Installing frappe
+2025-02-14 12:12:43,210 DEBUG cd /home/grazielle-neves/frappe-bench && /home/grazielle-neves/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/grazielle-neves/frappe-bench/apps/frappe 
+2025-02-14 12:13:48,151 DEBUG cd /home/grazielle-neves/frappe-bench/apps/frappe && yarn install --check-files
+2025-02-14 12:13:57,031 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-02-14 12:13:57,032 DEBUG cd frappe-bench && bench build
+2025-02-14 12:13:57,178 INFO /home/grazielle-neves/.local/bin/bench build
+2025-02-14 12:14:24,997 LOG setting up backups
+2025-02-14 12:14:25,009 LOG backups were set up
+2025-02-14 12:14:25,009 INFO Bench frappe-bench initialized
+2025-02-14 12:26:47,805 INFO /home/grazielle-neves/.local/bin/bench start
+2025-02-14 12:26:48,199 INFO /home/grazielle-neves/.local/bin/bench serve --port 8000
+2025-02-14 12:26:48,286 INFO /home/grazielle-neves/.local/bin/bench schedule
+2025-02-14 12:26:48,400 INFO /home/grazielle-neves/.local/bin/bench watch
+2025-02-14 12:26:48,507 INFO /home/grazielle-neves/.local/bin/bench worker
+2025-02-14 12:28:31,194 INFO /home/grazielle-neves/.local/bin/bench find .
+2025-02-14 12:28:46,169 INFO /home/grazielle-neves/.local/bin/bench new-app scheduling_system
+2025-02-14 12:28:46,175 LOG creating new app scheduling_system
+2025-02-14 12:29:15,119 LOG Installing scheduling_system
+2025-02-14 12:29:15,121 DEBUG cd /home/grazielle-neves/frappe-bench && /home/grazielle-neves/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/grazielle-neves/frappe-bench/apps/scheduling_system 
+2025-02-14 12:29:17,650 DEBUG bench build --app scheduling_system
+2025-02-14 12:29:17,834 INFO /home/grazielle-neves/.local/bin/bench build --app scheduling_system
+2025-02-14 12:29:19,944 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-02-14 12:36:22,164 INFO /home/grazielle-neves/.local/bin/bench new-site scheduling_system
+2025-02-14 12:36:39,412 INFO /home/grazielle-neves/.local/bin/bench new-site site.local
+2025-02-14 12:39:25,878 INFO /home/grazielle-neves/.local/bin/bench use site.local
+2025-02-14 12:39:38,829 INFO /home/grazielle-neves/.local/bin/bench start
+2025-02-14 12:39:39,224 INFO /home/grazielle-neves/.local/bin/bench watch
+2025-02-14 12:39:39,237 INFO /home/grazielle-neves/.local/bin/bench schedule
+2025-02-14 12:39:39,525 INFO /home/grazielle-neves/.local/bin/bench serve --port 8000
+2025-02-14 12:39:39,526 INFO /home/grazielle-neves/.local/bin/bench worker
+2025-02-14 12:42:59,133 INFO /home/grazielle-neves/.local/bin/bench --site site.local install-app scheduling_system
+2025-02-14 14:13:08,169 INFO /home/grazielle-neves/.local/bin/bench set-config -g developer_mode true
+2025-02-14 14:13:18,566 INFO /home/grazielle-neves/.local/bin/bench start
+2025-02-14 14:13:18,980 INFO /home/grazielle-neves/.local/bin/bench schedule
+2025-02-14 14:13:19,003 INFO /home/grazielle-neves/.local/bin/bench worker
+2025-02-14 14:13:19,281 INFO /home/grazielle-neves/.local/bin/bench serve --port 8000
+2025-02-14 14:13:19,284 INFO /home/grazielle-neves/.local/bin/bench watch

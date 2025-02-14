@@ -1,0 +1,12 @@
+2025-02-14 14:54:53,421 ERROR frappe New Exception collected in error log
+Site: site.local
+Form Dict: {'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-02-14 15:12:31,258 ERROR frappe New Exception collected in error log
+Site: site.local
+Form Dict: {'doctype': 'Appointment', 'with_parent': '1', 'cached_timestamp': '2025-02-14 15:03:59.569519', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-02-14 15:13:09,559 ERROR frappe New Exception collected in error log
+Site: site.local
+Form Dict: {'doctype': 'Appointment', 'with_parent': '1', 'cached_timestamp': '2025-02-14 15:03:59.569519', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-02-14 15:14:18,070 ERROR frappe New Exception collected in error log
+Site: site.local
+Form Dict: {'doctype': 'Appointment', 'with_parent': '1', 'cached_timestamp': '2025-02-14 15:03:59.569519', 'cmd': 'frappe.desk.form.load.getdoctype'}
